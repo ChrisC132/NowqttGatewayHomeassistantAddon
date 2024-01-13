@@ -1,0 +1,12 @@
+config:
+  log_level: "DEBUG"
+  default_seconds_until_timeout: 60
+  cooldown_between_config_request_on_unknown_sensor: 5
+  serial:
+    com_port: "COM7"
+    baudrate: 115200
+  mqtt_client:
+    username: "mqtt"
+    password: "kuTJljPEi17ceX45pJ7bQedpav0KEjoT"
+    address: "192.168.178.23"
+    port: 1883
